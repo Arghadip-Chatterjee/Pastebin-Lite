@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 243, 244, 246;
+  /* gray-100 */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  min-height: 100vh;
+}
+
+/* Glassmorphism utilities - simplified for solid background */
+.glass-panel {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  /* gray-200 */
+}
