@@ -6,10 +6,10 @@ export default function Home() {
       <div className="w-full max-w-3xl animate-fade-in-up">
         <div className="text-center mb-8">
           <h1 className="text-5xl font-extrabold text-slate-800 tracking-tight">
-            Pastebin
+            Pastebin Lite
           </h1>
           <p className="text-slate-600 mt-2 text-lg font-medium">
-            Share code and text securely with disappearing links.
+            Paste your code and text securely with Temporary links.
           </p>
         </div>
 
