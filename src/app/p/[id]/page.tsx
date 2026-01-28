@@ -62,7 +62,7 @@ export default async function ViewPaste({ params }: { params: { id: string } }) 
                         {paste.expires_at && (
                             <div className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-md shadow-sm border border-slate-100">
                                 <svg className="w-4 h-4 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                                <span>Expires: {new Date(paste.expires_at).toLocaleString()}</span>
+                                <span>Expires: {new Date(paste.expires_at).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', timeZoneName: 'short' })}</span>
                             </div>
                         )}
                     </div>
