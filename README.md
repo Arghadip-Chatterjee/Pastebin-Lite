@@ -71,3 +71,5 @@ The architecture is fully stateless and designed for serverless environments (li
 
 Redis is used instead of a traditional database because the application requires **atomic view counting and precise expiry enforcement** under concurrent access, which Redis supports naturally with simple key-based operations. Unlike in-memory storage or databases such as MongoDB or Postgres that require additional transactional logic, Redis provides a cleaner and more reliable approach for this workload. The system uses a **soft-delete strategy**, where expired or exhausted pastes are marked unavailable by logic rather than immediately relying on infrastructure-level deletion, allowing deterministic expiry testing while still enabling optional lazy cleanup from Redis when accessed.
 
+The application is built using Next.js as a full-stack framework, leveraging server-side rendering and server-handled API routes, ensuring all validation, constraint enforcement, and data access are performed securely on the server without relying on client-side state.
+
