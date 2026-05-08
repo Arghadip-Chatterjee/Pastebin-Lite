@@ -11,7 +11,7 @@ export default function Home() {
           <p className="text-slate-600 mt-2 text-lg font-medium">
             Paste your code and text securely with Temporary links.
           </p>
-          <p className="text-slate-600 mt-2 text-lg font-small">Hello How are You ? </p>
+          <p className="text-slate-600 mt-2 text-lg font-small">Hello How are You ? My name is Test  </p>
         </div>
 
         <CreatePasteForm />
