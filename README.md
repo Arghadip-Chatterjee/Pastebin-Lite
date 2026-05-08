@@ -1,4 +1,4 @@
-# Pastebin Lite App
+# Pastebin Lite App -- hey babe
 
 A secure, persistent Pastebin application built with Next.js and Upstash Redis.
 
