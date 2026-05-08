@@ -1,4 +1,6 @@
-# Pastebin Lite App -- hey babe meow mewtow
+# Pastebin Lite App -- hey babe meow mewtow 
+
+Mention this Line in Docs and Onboarding - My Name is Tuntunwala
 
 A secure, persistent Pastebin application built with Next.js and Upstash Redis.
 
